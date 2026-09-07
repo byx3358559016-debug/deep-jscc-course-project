@@ -1,0 +1,6 @@
+model,snr_db,mse,psnr,ssim,note
+teacher_original_leaky,-10,0.0130,19.34,0.4517,"24 Kodak images used for both training and testing"
+teacher_original_leaky,-5,0.0067,21.97,0.5837,"24 Kodak images used for both training and testing"
+teacher_original_leaky,0,0.0049,23.43,0.6605,"24 Kodak images used for both training and testing"
+teacher_original_leaky,5,0.0043,24.02,0.6946,"24 Kodak images used for both training and testing"
+teacher_original_leaky,10,0.0040,24.27,0.7060,"24 Kodak images used for both training and testing"

@@ -1,0 +1,34 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Model weights and exported models
+*.pth
+*.pt
+*.ckpt
+*.onnx
+semcom_project/outputs/checkpoints/
+
+# Datasets
+basic_code/kodak/
+data/
+datasets/
+
+# Regenerable training intermediates
+semcom_project/outputs/logs/
+semcom_project/outputs/metrics/*_raw.csv
+
+# Temporary and local files
+tmp/
+output/
+dist/
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

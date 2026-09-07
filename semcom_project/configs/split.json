@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "description": "Kodak 24 image-level split. Images never cross subsets.",
+  "train": [
+    "kodim16.png", "kodim06.png", "kodim19.png", "kodim24.png",
+    "kodim14.png", "kodim11.png", "kodim18.png", "kodim12.png",
+    "kodim15.png", "kodim17.png", "kodim02.png", "kodim13.png",
+    "kodim22.png", "kodim07.png", "kodim10.png", "kodim03.png"
+  ],
+  "val": ["kodim23.png", "kodim05.png", "kodim20.png", "kodim08.png"],
+  "test": ["kodim09.png", "kodim01.png", "kodim04.png", "kodim21.png"]
+}
